@@ -15,8 +15,8 @@ provider "aws" {
 
   assume_role {
     role_arn     = "arn:aws:iam::${var.aws_account_id}:role/assumed-terraform"
-    session_name = "QL_OPS_TERRAFORM_SESSION"
-    external_id  = "QL_TECH_OPS_TF"
+    session_name = "TERRAFORM_SESSION"
+    external_id  = "TECH_OPS_TF"
   }
 }
 
